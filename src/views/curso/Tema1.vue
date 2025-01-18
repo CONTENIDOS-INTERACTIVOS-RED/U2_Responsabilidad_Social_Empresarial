@@ -1,304 +1,218 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Conceptos Fundamentales de la RSE'")
+  BannerInterno(:subTitulo="'1. Responsabilidad Social Empresarial (RSE) estratégica'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-    p.mb-5 La Responsabilidad Social Empresarial (RSE) es un enfoque estratégico que invita a las empresas a integrar, de manera voluntaria, consideraciones sociales, ambientales y económicas en sus operaciones diarias, así como en sus relaciones con las partes interesadas. Su desarrollo se remonta a mediados del siglo XX, cuando comenzó a cuestionarse el rol exclusivo de las empresas como generadoras de beneficios económicos, planteándose nuevas responsabilidades relacionadas con su impacto en la sociedad y el medio ambiente (Lozano, 2019).
+    .bg-color-5.mb-5(data-aos="fade-up")
+      .row.justify-content-center.align-items-center
+        .col-lg-auto
+          figure
+            img(src='@/assets/curso/tema1/1.png', alt='')
+        .col-lg
+          .p-4
+            p.mb-0(data-aos="fade-up") La Responsabilidad Social Empresarial (RSE) estratégica se define como la integración voluntaria, por parte de las empresas, de preocupaciones sociales y ambientales en sus operaciones comerciales y en sus interacciones con los stakeholders. Este enfoque permite a las organizaciones vincular sus objetivos económicos con el desarrollo sostenible, generando valor tanto para la empresa como para la comunidad en general.
+    
+    .bg-full-width.bg-fondo-7.mb-5
+      .px-4.px-md-5.pb-md-3
+        .row.mb-5.align-items-center
+          .col-lg-4.order-2
+            figure
+              img(src="@/assets/curso/tema1/3.svg", data-aos="zoom-in")
+          .col-lg-8.order-1
+            p La implementación de una estrategia de RSE estratégica conlleva diversos beneficios. Por un lado, mejora la reputación corporativa y fortalece la confianza de los clientes, lo cual puede transformarse en una ventaja competitiva en el mercado. Por otro lado, contribuye a la preservación del medio ambiente y al bienestar social, aspectos cada vez más valorados por los diferentes grupos de interés.
+            .bg-color-1.p-4(data-aos="fade-left").mb-3
+              .row.align-items-start
+                .col-lg-auto
+                  img(src="@/assets/curso/tema1/2.svg", style="max-width: 90px").mx-auto
+                .col-lg
+                  p.mb-0 La RSE estratégica promueve entornos laborales seguros y saludables en el ámbito de la seguridad y salud en el trabajo, fomentando el bienestar de los empleados y, como resultado, incrementando la productividad y la satisfacción laboral. Además, al considerar las consecuencias sociales y ambientales de sus operaciones, las organizaciones pueden anticipar y mitigar riesgos asociados a la salud ocupacional y al impacto ambiental.
+            p La (RSE) estratégica representa un enfoque integral que combina el crecimiento económico con el bienestar social y la sostenibilidad ambiental.
+    
 
-  //
-    .bg-full-width-2.bg-fondo-3.mb-5
+    .bg-full-width-2.bg-fondo-slider.mb-5
+      .p-4.p-md-5
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    #t_1_1.titulo-segundo(data-aos="flip-up")
+      h2 #[span 1.1] Integración en la visión y misión corporativa
+    
+    p La integración de la Responsabilidad Social Empresarial (RSE) en la visión y misión corporativa es clave para alinear los objetivos empresariales con un compromiso genuino hacia el bienestar social y ambiental. Este enfoque permite que las empresas trasciendan el lucro, promoviendo prácticas éticas y sostenibles que beneficien tanto a la sociedad como al medio ambiente.
+    p.mb-4 Los beneficios de la integración de la RSE son: 
+
+    .bg-full-width.bg-fondo-6
+      .px-4.px-md-5.pb-md-3
+        .row.justify-content-center.align-items-stretch.mb-5
+          .col-lg-4.mb-4(data-aos="zoom-in-up")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/tema1/4.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Propósito ampliado	
+                p.mb-0 Al incluir la RSE en declaraciones fundamentales, las organizaciones establecen un propósito que promueve el valor compartido, consolidando su reputación y posicionamiento.
+          .col-lg-4.mb-4(data-aos="zoom-in-down")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/tema1/5.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Impacto estratégico
+                p.mb-0 La alta dirección lidera el compromiso con la RSE, integrando estos valores en la cultura organizacional y en decisiones estratégicas.
+          .col-lg-4.mb-4(data-aos="zoom-in-down")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/tema1/6.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Foco en grupos de interés
+                p.mb-0 Es crucial priorizar temas relevantes para los <em>stakeholders</em>, asegurando que las iniciativas respondan a las necesidades sociales y ambientales.
+
+    h2.mb-3(data-aos="fade-right") Ejemplo destacado: Crepes & Waffles
+    p.mb-5 Esta empresa colombiana es un referente en la integración de la RSE en su modelo de negocio:
+
+    .bg-full-width-2.bg-fondo-3
       .px-4.px-md-5.pb-md-3
         .row.justify-content-center.align-items-center
           .col-lg-6(data-aos="fade-left").order-2
-            h5 Principios Clave de la RSE:
             ul.lista-ul
               li.mb-2.d-flex
                 i.far.fa-arrow-alt-circle-right 
-                p.mb-0 Transparencia en las acciones empresariales.
+                p.mb-0 <b>Compromiso social:</b> genera empleo para mujeres cabeza de familia, posicionándose como líder en responsabilidad social.
               li.mb-2.d-flex
                 i.far.fa-arrow-alt-circle-right 
-                p.mb-0 Prácticas basadas en la ética y responsabilidad.
+                p.mb-0 <b>Respuesta ante crisis:</b> durante la pandemia, implementó estrategias para proteger empleos y apoyar a colaboradores.
               li.mb-2.d-flex
                 i.far.fa-arrow-alt-circle-right 
-                p.mb-0 Respeto y promoción de los derechos humanos.
+                p.mb-0 <b>Desarrollo sostenible:</b> trabaja con pequeños productores, promoviendo el desarrollo de comunidades locales.
   
 
           .col-lg-6(data-aos="zoom-in").order-1
             figure
-              img(src="@/assets/curso/tema1/1.svg", data-aos="zoom-in").mb-4.mb-lg-0
+              img(src="@/assets/curso/tema1/7.svg", data-aos="zoom-in").mb-4.mb-lg-0
 
-    p.mb-5 La RSE, además de promover valores éticos, busca crear un desarrollo sostenible que equilibre el crecimiento económico, la protección ambiental y el bienestar social. Implementar prácticas de RSE, como las sugeridas en la norma ISO 26000, permite a las organizaciones fortalecer su reputación, optimizar relaciones con sus stakeholders y generar un impacto positivo en las comunidades donde operan.
+    .bg-full-width.bg-color-3.mb-5
+      .px-4.px-md-5.py-4
+        p.mb-0 El caso de Crepes & Waffles demuestra que integrar la RSE no solo fortalece la reputación corporativa, sino que también impacta positivamente en la sociedad y el medio ambiente, alineando objetivos empresariales con principios éticos.
 
-
-    h2.mb-3(data-aos="fade-right") Beneficios de la RSE
-    p.mb-5 La Responsabilidad Social Empresarial (RSE) genera beneficios significativos tanto para las organizaciones como para la sociedad.
-
-
-    .bg-full-width.bg-fondo-4.mb-5
-      .px-4.px-md-5.pb-md-3
-        div.row.justify-content-center.align-items-stretch.mb-5
-          div.col-lg-3.mb-4(data-aos="zoom-in-up")
-            div.bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema1/2.svg"
-                alt=""
-                style="width: 90px"
-              )
-              h5.text-center Reputación
-              p.mb-0.text-center Mejora la imagen corporativa y la percepción pública.
-          
-          div.col-lg-3.mb-4(data-aos="zoom-in-up")
-            div.bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema1/3.svg"
-                alt=""
-                style="width: 90px"
-              )
-              h5.text-center Internos
-              p.mb-0.text-center Incrementa la lealtad y satisfacción de los empleados.
-          
-          div.col-lg-3.mb-4(data-aos="zoom-in-up")
-            div.bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema1/4.svg"
-                alt=""
-                style="width: 90px"
-              )
-              h5.text-center Competitividad
-              p.mb-0.text-center Aumenta la confianza de inversores y consumidores.
-          div.col-lg-3.mb-4(data-aos="zoom-in-up")
-            div.bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema1/5.svg"
-                alt=""
-                style="width: 90px"
-              )
-              h5.text-center Sostenibilidad
-              p.mb-0.text-center Contribuye a un desarrollo económico respetuoso con el medio ambiente y las comunidades.
-        
-        p.mb-5 En el ámbito de la seguridad y salud laboral, la RSE obliga a las empresas a diseñar ambientes laborales seguros, proteger a sus colaboradores y asegurar el cumplimiento de normativas vigentes, mostrando así su compromiso ético y estratégico con el bienestar integral de su equipo.
-
-    #t_1_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 1.1] Definición y Evolución Histórica de la RSE
-
-    
-    .bg-color-2.mb-5(data-aos="fade-up")
-      .row.justify-content-center.align-items-center
-        .col-lg-auto
-          figure
-            img(src='@/assets/curso/tema1/6.png', alt='')
-        .col-lg
-          .p-4
-            p.mb-0(data-aos="fade-up") La RSE se entiende como el compromiso de las empresas por incorporar preocupaciones sociales y ambientales en sus operaciones, buscando el equilibrio entre rentabilidad y bienestar colectivo. Este enfoque ha pasado de ser una práctica meramente filantrópica a una estrategia integral que considera los impactos en todas las dimensiones: económica, social y ambiental (Iglesias Prada & Tejedo Sanz, 2021).
-
-    h2.mb-3(data-aos="fade-right") Evolución histórica
-    p.mb-5 La RSE ha evolucionado significativamente a lo largo del tiempo, reflejando los cambios en las expectativas sociales y económicas hacia las empresas.
-
-    .bg-full-width.bg-fondo-5
-      .px-4.px-md-5.pb-md-3
-        .row.justify-content-center.mb-5(data-aos="zoom-in")
-          .col-lg-8.order-2
-            SlyderF(columnas="col-12 col-lg-6")
-              .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema1/8.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Filantropía Empresarial
-                p.text-center Se centraba en donaciones benéficas, con una visión paternalista de la responsabilidad (Siglo XIX - principios del siglo XX).
-              .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema1/9.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Cumplimiento Legal
-                p.text-center Se limitaba al cumplimiento de normativas, con el objetivo de evitar sanciones y multas (Mediados del siglo XX).
-              .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema1/10.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Integración Estratégica
-                p.text-center Se comenzó a integrar como herramienta estratégica para mejorar la eficiencia operativa, imagen corporativa y reducción de costos (Décadas de 1970 y 1980).
-              .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema1/11.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Ciudadanía Corporativa
-                p.text-center Reconocimiento de las empresas como actores sociales clave, responsables de contribuir al desarrollo de las comunidades donde operan (Década de 1990).
-              .bg-color-white.p-4.h-100.shadow-app
-                img(src='@/assets/curso/tema1/12.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Enfoque de Sostenibilidad
-                p.text-center Centrado en la creación de valor compartido y en minimizar impactos negativos en el medio ambiente, la sociedad y la gobernanza empresarial (Siglo XXI).
-              
-          .col-lg-4.order-1
-            figure
-              img(src='@/assets/curso/tema1/7.png', alt='')
-
-    #t_1_2.titulo-segundo(data-aos="flip-up")
-      h2 #[span 1.2] Dimensiones de la RSE
-
-    p.mb-5 La RSE aborda tres dimensiones interrelacionadas que buscan fomentar el equilibrio entre los objetivos empresariales y el impacto positivo en la sociedad y el medio ambiente.
-
-    TabsC.color-acento-contenido.mb-5
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Económica" :icon="require('@/assets/bullets/1.svg')" )
-        .row.justify-content-center
-          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-            h4 Económica
-            p Asegura la viabilidad financiera y la creación de valor para accionistas y partes interesadas, mientras promueve una gestión responsable y eficiente de los recursos.
-            p <b>Ejemplo</b>. Inversión en tecnologías sostenibles para optimizar procesos productivos, reduciendo costos e incrementando la calidad.
-        
-          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema1/13.png', alt='')
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Social" :icon="require('@/assets/bullets/2.svg')" )
-        .row.justify-content-center
-          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-            h4 Social
-            p Fomenta el bienestar y la equidad entre empleados, comunidades y sociedad en general, promoviendo derechos humanos y responsabilidad social.
-            p <b>Ejemplo</b>. Implementar programas de bienestar laboral y colaborar en proyectos educativos para mejorar la calidad de vida local.
-        
-          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema1/14.png', alt='')
-
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Ambiental" :icon="require('@/assets/bullets/3.svg')" )
-        .row.justify-content-center
-          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-            h4 Ambiental
-            p Mitiga el impacto ecológico de las operaciones empresariales mediante la adopción de prácticas sostenibles. 
-            p <b>Ejemplo</b>. Uso de energía renovable en las operaciones y promoción del reciclaje en todas las áreas de la empresa.
-        
-          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema1/15.png', alt='', style="width: 100%;")
-
-    h2.mb-3(data-aos="fade-right") Acciones clave en cada dimensión
-    p.mb-5 Las acciones clave en la RSE se estructuran en tres dimensiones fundamentales: económica, social y ambiental.
-
-
-    .bg-full-width.bg-fondo-6.mb-5
-      .px-4.px-md-5.pb-md-3
-        div.row.justify-content-center.align-items-stretch.mb-5
-          div.col-lg-4.mb-4(data-aos="zoom-in-up")
-            div.bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema1/16.svg"
-                alt=""
-                style="width: 90px"
-              )
-              h5.text-center Económica
-              p.mb-0.text-center Gestión eficiente de recursos.
-              p.mb-0.text-center Cumplimiento fiscal responsable.
-              p.mb-0.text-center Innovación tecnológica para la productividad.
-
-          
-          div.col-lg-4.mb-4(data-aos="zoom-in-up")
-            div.bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema1/17.svg"
-                alt=""
-                style="width: 90px"
-              )
-              h5.text-center Social
-              p.mb-0.text-center Implementación de programas de diversidad e inclusión.
-              p.mb-0.text-center Fomento de la capacitación continua en los empleados.
-              p.mb-0.text-center Colaboración en iniciativas comunitarias.
-          
-          div.col-lg-4.mb-4(data-aos="zoom-in-up")
-            div.bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema1/18.svg"
-                alt=""
-                style="width: 90px"
-              )
-              h5.text-center Ambiental
-              p.mb-0.text-center Desarrollo de estrategias de economía circular.
-              p.mb-0.text-center Reducción de la huella de carbono a través de energías limpias.
-              p.mb-0.text-center Gestión adecuada de residuos para minimizar impacto ecológico.
-
-        p.mb-5 La RSE es una herramienta estratégica que no solo beneficia a las organizaciones al aumentar su competitividad y sostenibilidad, sino que también mejora las condiciones sociales y ambientales. Las empresas responsables se posicionan como líderes del cambio, demostrando que el éxito corporativo y la responsabilidad social no son mutuamente excluyentes, sino componentes esenciales para un desarrollo equilibrado y equitativo.
-    
-    h2.mb-5(data-aos="fade-right") Integración de las dimensiones de la RSE
     .row.mb-5
       .col-lg-8
+        h2.mb-3(data-aos="fade-right") RSE y seguridad y salud en el trabajo
+        p(data-aos="fade-left") En el ámbito de la seguridad y salud en el trabajo, la integración de la RSE fomenta entornos laborales seguros y saludables, priorizando el bienestar de los empleados. Esto no solo mejora la productividad, sino que también refuerza el compromiso social de la empresa y contribuye al desarrollo sostenible.
         .bg-color-2.p-4(data-aos="fade-left").mb-4
-          p.mb-0 La integración de las dimensiones económica, social y ambiental es esencial para maximizar el impacto positivo de la Responsabilidad Social Empresarial (RSE). Este enfoque integral fortalece la reputación organizacional y genera confianza entre los grupos de interés.
-        
-        p(data-aos="fade-left") Por ejemplo, una organización que evalúa sus beneficios económicos con transparencia, aplica prácticas laborales justas y disminuye su impacto en el medio ambiente puede destacarse como un modelo de negocio sostenible.
+          p.mb-0 La inclusión de la RSE en la visión y misión corporativa es un paso esencial para equilibrar éxito económico con responsabilidad social. Este enfoque no solo mejora la competitividad y reputación organizacional, sino que también genera un impacto positivo y sostenible en la sociedad y el medio ambiente.
       .col-lg-4.d-none.d-sm-block
         figure
-          img(src="@/assets/curso/tema1/19.png", data-aos="zoom-in").mb-4.mb-lg-0
+          img(src="@/assets/curso/tema1/8.png", data-aos="zoom-in").mb-4.mb-lg-0
     
 
-    .row.justify-content-center.align-items-stretch.mb-4
-      .col-lg-6.mb-3.mb-lg-0
-        .bg-color-3.p-4(data-aos="fade-left").h-100
-          .row.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
-              img(src="@/assets/curso/tema1/20.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              h5.mb-2 Sinergia entre dimensiones
-              p.mb-0 La estrategia debe asegurar que las acciones económicas, sociales y ambientales se complementen mutuamente.
-
-      .col-lg-6
-        .bg-color-3.p-4(data-aos="fade-left").h-100
-          .row.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
-              img(src="@/assets/curso/tema1/21.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              h5.mb-2 Impacto positivo
-              p.mb-0 El enfoque integral contribuye tanto al logro empresarial como al bienestar social y la preservación ambiental.
+    #t_1_2.titulo-segundo(data-aos="flip-up")
+      h2 #[span 1.2] Integración en la visión y misión corporativa
     
-    p.mb-5 La implementación de una RSE integral asegura el desempeño responsable de la empresa en un entorno competitivo y contribuye al bienestar de la sociedad y el medio ambiente.
+    p La implementación de la Responsabilidad Social Empresarial (RSE) genera impactos positivos tanto para las empresas como para las comunidades en las que estas operan. Este enfoque permite a las organizaciones no solo fortalecer su reputación y competitividad, sino también contribuir al desarrollo sostenible y al bienestar social.
 
- 
     .titulo-figura.mb-4
       h5 Figura 1. 
-      span Evolución histórica RSE.
+      span Beneficios para la empresa y la comunidad.
     .row.mb-5.justify-content-center.bg-color-4.py-5
-      .col-lg-5
+      .col-lg-12
         figure
-          img(src="@/assets/curso/tema1/22.svg", data-aos="zoom-in")
-    
+          img(src="@/assets/curso/tema1/9.svg", data-aos="zoom-in")
 
-    #t_1_3.titulo-segundo(data-aos="flip-up")
-      h2 #[span 1.3] Principios éticos y morales en la RSE
 
-    p.mb-5 La Responsabilidad Social Empresarial se basa en principios éticos que orientan las decisiones empresariales más allá del cumplimiento legal, promoviendo la confianza y el compromiso con los grupos de interés. Estos principios incluyen transparencia, equidad, integridad y respeto por los derechos humanos.
+    h2.mb-3(data-aos="fade-right") Beneficios para la empresa
+    p.mb-5 La implementación de políticas de Responsabilidad Social Empresarial (RSE) ofrece numerosos beneficios para las organizaciones, fortaleciendo tanto su posicionamiento como su desempeño.
 
-    .row.align-items-start.mb-5
+
+    .bg-full-width-2.bg-fondo-slider.mb-5
+      .p-4.p-md-5
+        SlyderA(tipo="b").bg-white
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema1/10.png")
+            .col-lg-7
+              h5 Reputación y confianza
+              p Las empresas con políticas de RSE mejoran su imagen corporativa y generan confianza entre consumidores, empleados y otros grupos de interés, traduciéndose en mayor lealtad y preferencia por parte de los clientes.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema1/11.png")
+            .col-lg-7
+              h5 Atracción y retención de talento
+              p La RSE convierte a las empresas en lugares atractivos para trabajar, fomentando entornos éticos, diversos e inclusivos, incrementando la satisfacción laboral y reduciendo la rotación de personal.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema1/12.png")
+            .col-lg-7
+              h5 Nuevas oportunidades de negocio
+              p Las prácticas responsables abren mercados sostenibles y alianzas estratégicas con otras organizaciones comprometidas con la RSE, fortaleciendo las oportunidades económicas.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema1/13.png")
+            .col-lg-7
+              h5 Eficiencia y reducción de riesgos
+              p La adopción de prácticas sostenibles optimiza el uso de recursos, reduce costos operativos y previene sanciones y daños reputacionales relacionados con impactos negativos.
+
+    h2.mb-3(data-aos="fade-right") Beneficios para la comunidad
+    p.mb-5 La Responsabilidad Social Empresarial (RSE) genera beneficios significativos para las comunidades, promoviendo un desarrollo integral y sostenible. 
+
+    .bg-full-width.bg-color-info.mb-5
+      .p-4.p-md-5
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-6
+            ImagenInfografica.color-secundario
+                template(v-slot:imagen)
+                  figure
+                    img(src='@/assets/curso/tema1/14.svg', alt='', style="max-width: 1106px;").mx-auto
+
+                .bg-color-white.box-shadow.p-3(x="4.5%" y="18.3%" numero="+")
+                  h5 Desarrollo económico
+                  p Las empresas responsables generan empleo e invierten en las comunidades locales, fortaleciendo la economía regional y promoviendo iniciativas como reforestación y voluntariado corporativo.
+
+                .bg-color-white.box-shadow.p-3(x="96%" y="71.5%" numero="+")
+                  h5 Calidad de vida
+                  p Acciones enfocadas en educación, salud y bienestar general contribuyen a mejorar las condiciones de vida de las comunidades. Ejemplo: Programas que llevan servicios básicos a zonas vulnerables.
+
+                .bg-color-white.box-shadow.p-3(x="96%" y="18%" numero="+")
+                  h5 Sostenibilidad ambiental
+                  p Iniciativas empresariales enfocadas en la reducción de emisiones, gestión de residuos y preservación de recursos naturales protegen el medio ambiente y garantizan su sostenibilidad para futuras generaciones.
+
+                .bg-color-white.box-shadow.p-3(x="4%" y="71.5%" numero="+")
+                  h5 Cohesión social
+                  p Al promover valores como diversidad, equidad e inclusión, las empresas contribuyen a la construcción de sociedades más justas y cohesionadas.
+
+    .row.mb-5.align-items-center
       .col-lg-4.order-2
         figure
-          img(src="@/assets/curso/tema1/23.png", alt="").mb-4.mb-lg-0
+          img(src="@/assets/curso/tema1/15.png", data-aos="zoom-in")
       .col-lg-8.order-1
-        AcordionA(tipo="b")
-          .div(titulo="Transparencia")
-            p Actuar de manera abierta y honesta, proporcionando información clara y accesible a todas las partes interesadas, fortaleciendo la confianza y la comunicación.
-
-          .div(titulo="Equidad")
-            p Garantizar un trato justo y sin discriminación, promoviendo decisiones empresariales que beneficien a todos y fomenten un ambiente inclusivo y respetuoso.
-
-          .div(titulo="Integridad")
-            p Mantener altos estándares morales en todas las acciones, cumpliendo los valores y principios éticos de la organización.
-
-          .div(titulo="Respeto por los Derechos Humanos")
-            p Asegurar que las operaciones empresariales no vulneren derechos fundamentales, promoviendo la dignidad y los derechos de todas las personas involucradas.
-    
-
-    p.mb-5 Las aplicaciones prácticas de los principios éticos en la RSE son:
-
-
-    .row.justify-content-center.align-items-stretch.mb-4
-      .col-lg-6.mb-3.mb-lg-0
-        .bg-color-3.p-4(data-aos="fade-left").h-100
-          .row.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
-              img(src="@/assets/curso/tema1/24.svg", style="max-width: 90px").mx-auto
+        h2.mb-3(data-aos="fade-right") Impacto en la seguridad y salud en el trabajo
+        p.mb-5 En este ámbito, la RSE garantiza condiciones laborales seguras y saludables, mejorando la productividad y la satisfacción de los empleados, al tiempo que contribuye a la creación de entornos laborales dignos y seguros.
+        .bg-color-2.p-4(data-aos="fade-left")
+          .row.align-items-start
+            .col-lg-auto
+              img(src="@/assets/curso/tema1/16.svg", style="max-width: 90px").mx-auto
             .col-lg
-              p.mb-0 Una compañía que fomenta la <em>equidad</em> mediante políticas de igualdad de oportunidades y diversidad mejora su entorno laboral y productividad.
-
-      .col-lg-6
-        .bg-color-3.p-4(data-aos="fade-left").h-100
-          .row.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
-              img(src="@/assets/curso/tema1/25.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p.mb-0 Una empresa que respeta los <em>derechos humanos</em> en su cadena de suministro, asegurando condiciones laborales justas, demuestra su compromiso ético y social.
+              p.mb-0 La RSE genera una relación simbiótica entre empresas y comunidades, promoviendo un desarrollo equitativo y sostenible. Este enfoque no solo beneficia a las organizaciones al fortalecer su reputación y competitividad, sino que también impacta positivamente en la calidad de vida, la cohesión social y la protección del medio ambiente.
     
-    p.mb-5 La implementación de estos principios no solo fortalece la reputación de las empresas, sino que también contribuye al desarrollo sostenible y a la lealtad de clientes y empleados, incrementando la competitividad en el mercado. Estos principios éticos esenciales guían las decisiones hacia prácticas responsables y sostenibles que benefician tanto a la empresa como a la sociedad.
+    .bg-full-width.bg-color-5.mb-lg-5
+      .px-4.p-md-5
+        .row.justify-content-center.align-items-center
+          .col-lg-7.order-2
+            h2.mb-4(data-aos="flip-up") Ejemplos destacados de implementación en la Responsabilidad Social Empresarial (RSE)
+            p.mb-4(data-aos="fade-right") En el documento se describen ejemplos destacados de implementación de la Responsabilidad Social Empresarial (RSE), resaltando cómo diversas empresas han integrado estrategias sostenibles y socialmente responsables en sus operaciones
+
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p <strong>Anexo. </strong> Ejemplos destacados de implementación en la Responsabilidad Social Empresarial (RSE).
+
+          .col-lg-5.order-1
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/17.png', alt='')
 
 
-      
+
+  
 
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5

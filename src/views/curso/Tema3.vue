@@ -1,136 +1,175 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'4. Desarrollo sustentable y desarrollo humano'")
+  BannerInterno(:subTitulo="'3. Lo social como estrategia de marketing y logística en RSE '")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-    p.mb-5 El desarrollo sustentable y la Responsabilidad Social Empresarial (RSE) convergen en el objetivo de equilibrar el progreso económico, la justicia social y la preservación ambiental. Mientras el desarrollo sustentable busca satisfacer las necesidades presentes sin comprometer las futuras, la RSE integra voluntariamente aspectos sociales y ambientales en las operaciones empresariales, fomentando prácticas responsables que benefician tanto a la sociedad como al entorno.
-  //
+    .bg-color-7.mb-5(data-aos="fade-up")
+      .row.justify-content-center.align-items-center
+        .col-lg-auto
+          figure
+            img(src='@/assets/curso/tema3/1.png', alt='')
+        .col-lg
+          .p-4
+            p.mb-0(data-aos="fade-up") La integración de estrategias sociales en el marketing y la logística bajo el enfoque de la Responsabilidad Social Empresarial (RSE) ha ganado relevancia como una herramienta clave para fomentar el desarrollo sostenible y fortalecer la relación entre empresas, consumidores y comunidades.
+    
     .row.align-items-start.mb-5
-      .col-lg-4
+      .col-lg-4.order-2
         figure
-          img(src="@/assets/curso/tema4/1.png", alt="").mb-4.mb-lg-0
-      .col-lg-8
+          img(src="@/assets/curso/tema3/2.png", alt="").mb-4.mb-lg-0
+      .col-lg-8.order-1
         AcordionA(tipo="b")
-          .div(titulo="Desarrollo sustentable")
-            p Este enfoque se centra en armonizar el crecimiento económico con la equidad social y la protección ambiental. Incluye: 
-            ul.lista-ul
-              li.mb-2.d-flex
-                i.far.fa-arrow-alt-circle-right 
-                p.mb-0 Uso responsable y eficiente de recursos naturales.
-              li.mb-2.d-flex
-                i.far.fa-arrow-alt-circle-right 
-                p.mb-0 Implementación de tecnologías que minimicen el impacto ambiental.
-          .div(titulo="Desarrollo humano")
-            p Este concepto prioriza el bienestar de las personas, asegurando acceso a salud, educación y condiciones de vida dignas. Promueve:
-            ul.lista-ul
-              li.mb-2.d-flex
-                i.far.fa-arrow-alt-circle-right 
-                p.mb-0 Equidad de género.
-              li.mb-2.d-flex
-                i.far.fa-arrow-alt-circle-right 
-                p.mb-0 Participación ciudadana.
-              li.mb-2.d-flex
-                i.far.fa-arrow-alt-circle-right 
-                p.mb-0 Respeto a los derechos humanos.
-          
-    
-    h2.mb-3(data-aos="fade-right") Relación entre desarrollo sustentable y desarrollo humano
-    p.mb-5 Ambos conceptos son interdependientes: el desarrollo humano solo puede ser sostenible si se preserva el medio ambiente, mientras que el desarrollo sustentable requiere considerar el bienestar de las personas. Integrar ambos enfoques es crucial para construir sociedades equitativas y en armonía con la naturaleza.
+          .div(titulo="Marketing  Social en la RSE")
+            p Diseña campañas que abordan problemáticas sociales y generan cambios positivos en el comportamiento de las personas. Al integrar valores de RSE, las empresas construyen conexiones emocionales con los consumidores, incrementan la lealtad y mejoran la percepción de la marca. Estas iniciativas refuerzan la imagen corporativa y potencian la competitividad en el mercado.
 
-    .bg-full-width.bg-color-7.mb-5
+          .div(titulo="Logística Responsable como Pilar de la RSE")
+            p La logística responsable implica la gestión sostenible de la cadena de suministro, optimización de recursos y reducción de impactos ambientales. Este enfoque mejora la eficiencia operativa, contribuye al bienestar social y fomenta la sostenibilidad ambiental, además de reducir costos operativos.
+
+          .div(titulo="Sinergia entre Marketing  Social y Logística Responsable")
+            p Combinar marketing social y logística responsable permite alinear los objetivos empresariales con el desarrollo sostenible. La comunicación efectiva de acciones responsables genera confianza, consolida la reputación y fomenta la lealtad de los consumidores. Además, la optimización de recursos y procesos en la logística respalda estas iniciativas con impactos positivos concretos
+
+    h2.mb-3(data-aos="fade-right") Caso práctico: Alquería en Colombia
+    p.mb-5 Un ejemplo sobresaliente de esta integración es Alquería, una empresa láctea colombiana que ha implementado con éxito estrategias sociales tanto en su marketing como en su logística. Entre sus iniciativas se destacan:
+
+    .bg-full-width-2.bg-fondo-3
       .px-4.px-md-5.pb-md-3
         .row.justify-content-center.align-items-center
           .col-lg-6(data-aos="fade-left").order-2
-            h5 Ejemplos prácticos:
             ul.lista-ul
               li.mb-2.d-flex
                 i.far.fa-arrow-alt-circle-right 
-                p.mb-0 <b>Energías renovables:</b> implementación de fuentes de energía limpia, como solar y eólica, para reducir emisiones de gases de efecto invernadero.
-              li.mb-2.d-flex
-                i.far.fa-arrow-alt-circle-right
-                p.mb-0 <b>Educación inclusiva:</b> garantizar acceso equitativo a educación de calidad, promoviendo la igualdad de oportunidades.
-              
-
-          .col-lg-6(data-aos="zoom-in").order-1
-            figure
-              img(src="@/assets/curso/tema4/2.svg", data-aos="zoom-in").mb-4.mb-lg-0
-    
-    h2.mb-3(data-aos="fade-right") Relación entre RSE y desarrollo sustentable
-    p La RSE y el desarrollo sostenible son conceptos complementarios que alinean la actividad empresarial con objetivos sociales y ambientales.
-    p.mb-5 Los puntos clave de la relación:
-
-    .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-6.mb-3.mb-lg-0
-        .bg-color-3.p-4(data-aos="fade-left").h-100
-          .row.align-items-center
-            .col-lg-auto
-              img(src="@/assets/curso/tema4/3.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p.mb-0 La RSE impulsa la adopción de prácticas que respetan los derechos humanos, protegen el medio ambiente y fomentan el desarrollo social y económico.
-
-      .col-lg-6
-        .bg-color-3.p-4(data-aos="fade-left").h-100
-          .row.align-items-center
-            .col-lg-auto
-              img(src="@/assets/curso/tema4/4.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p.mb-0 El desarrollo sostenible, por su parte, se enfoca en satisfacer necesidades actuales sin comprometer las futuras, guiando estrategias empresariales hacia objetivos globales, como los ODS de la ONU.
-    
-    .bg-full-width.bg-color-5.mb-5
-      .px-4.px-md-5.pb-md-3
-        .row.justify-content-center.align-items-center
-          .col-lg-6(data-aos="fade-left").order-2
-            h5 Ejemplos prácticos:
-            ul.lista-ul
+                p.mb-0 <b>Fundación Ábaco:</b> combate el hambre en comunidades vulnerables.
               li.mb-2.d-flex
                 i.far.fa-arrow-alt-circle-right 
-                p.mb-0 <b>Eficiencia energética y reducción de emisiones:</b> invertir en tecnologías limpias y optimizar procesos productivos disminuye el impacto ambiental, genera ahorros económicos y fortalece la reputación corporativa.
+                p.mb-0 <b>Fundación Alquería Cavelier:</b> promueve la educación en sectores desfavorecidos.
               li.mb-2.d-flex
-                i.far.fa-arrow-alt-circle-right
-                p.mb-0 <b>Diversidad e igualdad de género:</b> promover la equidad en el ámbito laboral fomenta la innovación y mejora la competitividad empresarial.
-              
+                i.far.fa-arrow-alt-circle-right 
+                p.mb-0 <b>Programa “Vaca Madrina”:</b> apoya a pequeños ganaderos a través de asistencia técnica y acceso a crédito, promoviendo la autosuficiencia y la sostenibilidad.
+  
 
           .col-lg-6(data-aos="zoom-in").order-1
             figure
-              img(src="@/assets/curso/tema4/5.svg", data-aos="zoom-in").mb-4.mb-lg-0
+              img(src="@/assets/curso/tema3/3.svg", data-aos="zoom-in").mb-4.mb-lg-0
+    .bg-full-width.bg-color-3.mb-5
+      .px-4.px-md-5.py-4
+        p.mb-0 Estas acciones han fortalecido la posición de Alquería como una empresa comprometida con la responsabilidad social, mejorando su reputación y consolidando su liderazgo en el mercado.
 
-    h2.mb-3(data-aos="fade-right") Gestión responsable en cadenas de suministro
+    p.mb-4 La integración de estrategias sociales en el marketing  y la logística en el marco de la RSE permite a las empresas generar valor compartido, beneficiando tanto a la organización como a las comunidades y al medio ambiente. Esta sinergia no solo contribuye al desarrollo sostenible, sino que también refuerza la confianza y lealtad de los consumidores, posicionando a las empresas como líderes responsables en sus respectivos sectores.
 
     .row.mb-5.align-items-center
       .col-lg-4.order-2
         figure
-          img(src="@/assets/curso/tema4/6.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema3/5.png", data-aos="zoom-in")
       .col-lg-8.order-1
-        p(data-aos="fade-left") Exigir estándares sociales y ambientales a los proveedores refuerza la sostenibilidad global y la confianza de los consumidores en los productos elaborados éticamente.
-
-        .bg-color-7.p-4(data-aos="fade-left")
+        h2.mb-3(data-aos="fade-right") Impacto social como herramienta de marketing
+        p El impacto social se ha consolidado como una estrategia clave en el marketing contemporáneo, permitiendo a las empresas alinear sus objetivos comerciales con causas sociales significativas. Este enfoque no solo refuerza la reputación corporativa, sino que también impulsa cambios positivos en la sociedad.
+        .bg-color-7.p-4(data-aos="fade-left").mb-3
           .row.align-items-start
             .col-lg-auto
-              img(src="@/assets/curso/tema4/7.svg", style="max-width: 90px").mx-auto
+              img(src="@/assets/curso/tema3/4.svg", style="max-width: 90px").mx-auto
             .col-lg
-              h5 Contexto colombiano
-              p.mb-0 En Colombia, la RSE aborda desafíos como la desigualdad social y la degradación ambiental. Las empresas que integran sostenibilidad fortalecen su competitividad en mercados internacionales y contribuyen al desarrollo del país.
+              p.mb-0 El marketing social se centra en promover ideas, valores y causas sociales para influir en el comportamiento de las personas, fomentando prácticas que beneficien al bienestar colectivo. A diferencia del marketing tradicional, su propósito trasciende la venta de productos o servicios, orientándose hacia la concienciación y transformación social.
     
-    p.mb-5 La RSE y el desarrollo sostenible están estrechamente interrelacionados. Las empresas que adoptan medidas responsables no solo cumplen con sus obligaciones éticas y legales, sino que también contribuyen a la construcción de una sociedad más justa y a la preservación del medio ambiente para futuras generaciones. Esta integración fortalece la reputación corporativa y asegura la sostenibilidad a largo plazo.
+    h2.mb-3(data-aos="fade-right") Beneficios del marketing con impacto social
+    p.mb-5 El marketing con impacto social se ha consolidado como una estrategia clave para conectar con los consumidores mientras se promueven valores positivos.
 
+    .bg-full-width-2.bg-fondo-slider.mb-5
+      .p-4.p-md-5
+        SlyderA(tipo="b").bg-white
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema3/6.png")
+            .col-lg-7
+              h5 Mejora de la imagen corporativa
+              p Incorporar temas sociales en las estrategias de marketing  posiciona a las empresas como responsables y comprometidas, incrementando la confianza del consumidor.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema3/7.png")
+            .col-lg-7
+              h5  Fidelización de clientes
+              p Los consumidores valoran las marcas que demuestran un compromiso genuino con causas sociales, lo que genera una mayor lealtad hacia la marca.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema3/8.png")
+            .col-lg-7
+              h5 Diferenciación en el mercado
+              p En sectores saturados, el compromiso social actúa como un diferenciador clave que atrae a consumidores interesados en la responsabilidad social empresarial.
+    
+    h2.mb-3(data-aos="fade-right") Estrategias para implementar el marketing social
+    p.mb-5 El éxito del marketing con impacto social radica en estrategias bien definidas que aseguren autenticidad y efectividad.
+    .bg-full-width.bg-fondo-6
+      .px-4.px-md-5.pb-md-3
+        .row.justify-content-center.align-items-stretch.mb-5
+          .col-lg-4.mb-4(data-aos="zoom-in-up")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/tema3/9.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Identificación de causas relevantes	
+                p.mb-0 Seleccionar causas sociales alineadas con los valores corporativos y las expectativas del público objetivo.
+          .col-lg-4.mb-4(data-aos="zoom-in-down")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/tema3/10.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Colaboración con Organizaciones Sociales
+                p.mb-0 Asociarse con ONGs u otras entidades para garantizar un impacto social auténtico y efectivo.
+          .col-lg-4.mb-4(data-aos="zoom-in-down")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/tema3/11.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Comunicación transparente
+                p.mb-0 Compartir de manera honesta y clara las iniciativas sociales para evitar percepciones de oportunismo.
+    
+    p.mb-4 Ejemplos de marketing con impacto social:
+
+    .bg-full-width-2.bg-fondo-slider.mb-5
+      .p-4.p-md-5
+        SlyderA(tipo="b").bg-white
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema3/12.png")
+            .col-lg-7
+              h5 Alejandro Crocker
+              p Diseñador venezolano en Colombia que utiliza desperdicios textiles para crear piezas únicas, empoderando comunidades vulnerables mediante formación en diseño y manufactura.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema3/13.png")
+            .col-lg-7
+              h5  KFC España 
+              p La cadena ha utilizado estrategias innovadoras en redes sociales para posicionarse como una marca líder, destacándose por su comunicación creativa y estratégica.
+    
+    h2.mb-3(data-aos="fade-right") Consideraciones éticas
+    p.mb-5 Es esencial evitar el "<em>social washing</em>", que consiste en aparentar un compromiso social sin acciones concretas que lo respalden. La autenticidad y la coherencia entre los valores corporativos y las acciones son fundamentales para mantener la credibilidad de la marca.
+
+    .bg-color-2.mb-5(data-aos="fade-up")
+      .row.justify-content-center.align-items-center
+        .col-lg-auto
+          figure
+            img(src='@/assets/curso/tema3/14.png', alt='')
+        .col-lg
+          .p-4
+            p.mb-0(data-aos="fade-up") El impacto social como herramienta de marketing permite a las empresas contribuir al bienestar colectivo mientras fortalecen su reputación y fidelizan a sus clientes. Al implementar estrategias de marketing  social con autenticidad y alineación con los valores corporativos, las empresas logran equilibrar sus objetivos comerciales con su responsabilidad social, generando valor compartido para todos los involucrados.
     .bg-full-width.bg-color-5.mb-lg-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
-          .col-lg-8.order-2
-            h2.mb-4(data-aos="flip-up") Grupos de interés en la responsabilidad social empresarial
-            p.mb-4(data-aos="fade-right") En el documento se explora cómo la responsabilidad social empresarial (RSE) interactúa con distintos grupos de interés clave, como empleados, consumidores, comunidades y el medio ambiente.
+          .col-lg-7
+            h2.mb-4(data-aos="flip-up") Logística sostenible e innovación social: pilares de la sostenibilidad empresarial
+            p.mb-4(data-aos="fade-right") En el documento se destaca cómo la logística sostenible y la innovación social se han convertido en componentes clave para las estrategias de Responsabilidad Social Empresarial (RSE).
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p <strong>Anexo. </strong> Grupos de interés en la responsabilidad social empresarial.
+                p <strong>Anexo. </strong> Logística sostenible e innovación social: pilares de la sostenibilidad empresarial.
 
-          .col-lg-4.order-1.mb-3.mb-lg-0
+          .col-lg-5
             figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema4/8.png', alt='')
+              img(src='@/assets/curso/tema3/15.png', alt='')
 
-
+  
 
     .bg-full-width.border-top.actividad.bg-color-actividad
       .p-4.p-md-5
@@ -180,7 +219,7 @@
 <script>
 import Actividad from '@/components/actividad/Actividad.vue'
 export default {
-  name: 'Tema4',
+  name: 'Tema3',
   components: {
     Actividad,
   },
