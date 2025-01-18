@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     p.mb-5 La Responsabilidad Social Empresarial  ha experimentado un avance significativo, pasando por etapas como <em>la filantropía, la legalidad, la productividad, la ciudadanía corporativa y la sostenibilidad</em>, adaptándose a los cambios en las expectativas sociales y en la manera en que las empresas interactúan con su entorno. La globalización ha sido un factor determinante en esta evolución, lo que ha incrementado las expectativas hacia las compañías para que desempeñen un papel más activo en temas sociales y ambientales. 
-
+  //
     .bg-full-width.bg-color-5.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center

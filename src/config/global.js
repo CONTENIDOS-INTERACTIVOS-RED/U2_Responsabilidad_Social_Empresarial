@@ -1,8 +1,8 @@
 export default {
   global: {
-    numeroUnidad: '1',
+    numeroUnidad: '2',
     tituloUnidad:
-      'Conceptos fundamentales de la Responsabilidad Social Empresarial (RSE)',
+      'Organización corporativa y Responsabilidad Social Empresarial (RSE)',
   },
   menuPrincipal: {
     menu: [
@@ -81,18 +81,6 @@ export default {
           },
         ],
       },
-      {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
-        titulo: 'Desarrollo sustentable y desarrollo humano',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'sintesis',
-        titulo: 'Síntesis',
-        desarrolloContenidos: true,
-      },
     ],
     subMenu: [
       {
@@ -115,115 +103,144 @@ export default {
   referencias: [
     {
       referencia:
-        'Iglesias Prada, M. Á., & Tejedo Sanz, J. (2021). Recursos humanos y responsabilidad social corporativa (1ª ed.). Macmillan Iberia, S.A',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/267712',
+        'Deloitte. (2016, 12 de julio). Responsabilidad Social y Gobierno Corporativo. ',
+      link:
+        'https://www.deloitte.com/es/es/services/risk-advisory/perspectives/responsabilidad-social-y-gobierno-corporativo.html',
     },
     {
       referencia:
-        'Lozano, M. C., & Parra, J. M. (2019). Enfoques de la responsabilidad social empresarial. Universidad Santo Tomás. ',
-      link: 'https://repository.usta.edu.co/handle/11634/17603',
+        'El Colombiano. (2021). Empresas con mayor responsabilidad social. ',
+      link:
+        'https://www.elcolombiano.com/negocios/estas-son-las-empresas-con-mayor-responsabilidad-social-MH14759566',
     },
     {
       referencia:
-        'United Nations. (2015). Transforming our world: The 2030 Agenda for Sustainable Development. ONU. ',
-      link: 'https://sdgs.un.org/2030agenda ',
+        'Factor Humà. (2014). Responsabilidad Social Estratégica (RSE).',
+      link:
+        'https://factorhuma.org/es/contenidos/unidades/11271-responsabilidad-social-estrategica-rse',
+    },
+    {
+      referencia:
+        'Guzmán Vásquez, A., Trujillo Dávila, M. A., & Guzmán Vásquez, D. (2019). Gestión de grupos de interés estratégicos: gobierno corporativo y empleados (1.ª ed.). Colegio de Estudios Superiores de Administración - CESA. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/222483',
+    },
+    {
+      referencia:
+        'Ministerio de Trabajo y Economía Social. (2014). Estrategia Española de Responsabilidad Social de las Empresas',
+      link: 'https://www.mites.gob.es/es/rse/eerse/index.htm',
+    },
+    {
+      referencia:
+        'Moreno Izquierdo, J. Á., & Estrada López, B. (Coords.). (2022). ¿Una empresa de todos? La participación del trabajo en el gobierno corporativo (1.ª ed.). Los Libros de la Catarata. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/247741',
+    },
+    {
+      referencia:
+        'Plaza Casado, A. (Coord.). (2024). Marketing socialmente responsable (1.ª ed.). Dykinson.',
+      link: ' https://elibro.net/es/lc/tecnologicadeloriente/titulos/261604',
+    },
+    {
+      referencia:
+        'Responsabilidad y Sostenibilidad. (2021). Estrategias de Responsabilidad Social Corporativa (RSC). ',
+      link:
+        'https://responsabilidadysostenibilidad.com/estrategias-de-responsabilidad-social-corporativa/',
     },
   ],
   glosario: [
     {
-      termino: 'Bienestar social',
+      termino: 'Acción social',
       significado:
-        'condición en la que las necesidades básicas de las personas están cubiertas y tienen acceso a oportunidades para mejorar su calidad de vida.',
+        'conjunto de actividades realizadas por una organización para beneficiar a la sociedad.',
     },
     {
-      termino: 'Consumo responsable',
+      termino: 'Cadena de suministro',
       significado:
-        'uso consciente y eficiente de recursos y productos, minimizando el impacto ambiental y fomentando prácticas sostenibles.',
+        'red de procesos y actores involucrados en la producción y entrega de un producto o servicio.',
     },
     {
-      termino: 'Desarrollo humano',
+      termino: 'Ciclo de vida',
       significado:
-        'proceso que amplía las oportunidades y capacidades de las personas, permitiéndoles vivir una vida digna, saludable y con acceso a educación y recursos.',
+        'análisis completo de los impactos ambientales de un producto desde su creación hasta su eliminación.',
     },
     {
       termino: 'Desarrollo sostenible',
       significado:
-        'enfoque que busca satisfacer las necesidades actuales sin comprometer las posibilidades de las generaciones futuras, integrando desarrollo económico, equidad social y protección ambiental.',
+        'modelo de desarrollo que satisface las necesidades presentes sin comprometer las generaciones futuras.',
     },
     {
-      termino: 'Dimensiones de la RSE',
+      termino: 'Diversidad',
       significado:
-        'áreas principales de enfoque en la RSE: económica, social y ambiental, que permiten a las empresas contribuir al desarrollo sostenible.',
+        'convivencia y aceptación de diferencias individuales en una organización o sociedad.',
     },
     {
       termino: 'Economía circular',
       significado:
-        'modelo económico que promueve la reutilización, el reciclaje y la reducción de residuos para maximizar el uso de recursos.',
+        'modelo económico basado en el uso eficiente de recursos mediante la reutilización y reciclaje.',
     },
     {
-      termino: 'Equidad social',
+      termino: 'Equidad',
       significado:
-        'principio que garantiza la distribución justa de recursos y oportunidades, buscando reducir desigualdades y promover la inclusión.',
+        'condición de igualdad en el acceso a recursos y oportunidades independientemente de las diferencias.',
     },
     {
-      termino: 'Gestión ambiental',
+      termino: 'Gobierno corporativo',
       significado:
-        'conjunto de prácticas y políticas dirigidas a minimizar el impacto ambiental de las actividades humanas.',
+        'conjunto de reglas, prácticas y procesos por los cuales una empresa es dirigida y controlada.',
     },
     {
-      termino: 'Impacto ambiental',
+      termino: 'Inclusión',
       significado:
-        'alteración en el entorno natural causada por actividades humanas, que puede ser mitigada mediante prácticas responsables y sostenibles.',
+        'creación de entornos donde todas las personas son valoradas y tienen acceso igualitario a oportunidades.',
     },
     {
-      termino: 'Innovación sostenible',
+      termino: 'Innovación social',
       significado:
-        'desarrollo de productos, servicios o procesos que generan valor económico y social, respetando los límites ambientales.',
+        'desarrollo de soluciones innovadoras que atienden problemas sociales específicos.',
+    },
+    {
+      termino: 'Logística sostenible',
+      significado:
+        'gestión de la cadena de suministro con prácticas que minimicen el impacto ambiental y social.',
+    },
+    {
+      termino: 'Marketing  social',
+      significado:
+        'estrategias de mercadeo diseñadas para promover causas sociales y generar cambios positivos.',
+    },
+    {
+      termino: 'Normativa ambiental',
+      significado:
+        'conjunto de regulaciones que buscan la protección y sostenibilidad del medio ambiente.',
     },
     {
       termino: 'Objetivos de Desarrollo Sostenible (ODS)',
       significado:
-        'conjunto de 17 metas globales adoptadas por la ONU para erradicar la pobreza, proteger el planeta y garantizar el bienestar para todos.',
+        'conjunto de metas globales para erradicar la pobreza, proteger el planeta y asegurar la prosperidad.',
     },
     {
-      termino: 'Prácticas empresariales responsables',
+      termino: 'Reciclaje',
       significado:
-        'acciones que integran principios éticos, sostenibles y de respeto hacia los grupos de interés y el medio ambiente.',
+        'proceso de transformación de desechos en nuevos productos o materias primas útiles.',
     },
     {
-      termino: 'Preservación ambiental',
+      termino: 'Responsabilidad Social Empresarial (RSE)',
       significado:
-        'conservación y protección de los recursos naturales y la biodiversidad para mantener el equilibrio ecológico.',
+        'compromiso de una empresa con el bienestar social, ambiental y económico de las comunidades.',
     },
     {
-      termino: 'Producción limpia',
+      termino: 'Sostenibilidad',
       significado:
-        'estrategias que minimizan los residuos y el impacto ambiental en la fabricación de bienes y servicios.',
+        'capacidad de satisfacer las necesidades presentes sin comprometer los recursos futuros.',
     },
     {
-      termino: 'Recursos naturales',
+      termino: 'Transparencia',
       significado:
-        'bienes y servicios proporcionados por la naturaleza, esenciales para la vida humana y el desarrollo económico.',
+        'principio que promueve la honestidad y claridad en las operaciones y comunicaciones empresariales.',
     },
     {
-      termino: 'Relación entre RSE y Desarrollo Sostenible',
+      termino: 'Triple resultado',
       significado:
-        'conexión entre prácticas empresariales responsables y el objetivo de equilibrar el progreso económico, social y ambiental.',
-    },
-    {
-      termino: 'Responsabilidad Social Empresarial',
-      significado:
-        'estrategia corporativa que integra voluntariamente preocupaciones sociales, ambientales y económicas en las operaciones de una empresa y en su interacción con los grupos de interés.',
-    },
-    {
-      termino: 'Sostenibilidad económica',
-      significado:
-        'capacidad de una organización para generar ingresos y crecimiento económico a largo plazo, respetando límites ambientales y sociales.',
-    },
-    {
-      termino: '<em>Stakeholders:</em>',
-      significado:
-        'personas o entidades que afectan o son afectadas por las actividades de una organización, como empleados, consumidores, comunidades y el medio ambiente.',
+        'enfoque que mide el éxito empresarial en términos económicos, sociales y ambientales.',
     },
   ],
 }

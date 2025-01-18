@@ -5,7 +5,7 @@
 
     p.mb-5 La Responsabilidad Social Empresarial (RSE) es un enfoque estratégico que invita a las empresas a integrar, de manera voluntaria, consideraciones sociales, ambientales y económicas en sus operaciones diarias, así como en sus relaciones con las partes interesadas. Su desarrollo se remonta a mediados del siglo XX, cuando comenzó a cuestionarse el rol exclusivo de las empresas como generadoras de beneficios económicos, planteándose nuevas responsabilidades relacionadas con su impacto en la sociedad y el medio ambiente (Lozano, 2019).
 
-
+  //
     .bg-full-width-2.bg-fondo-3.mb-5
       .px-4.px-md-5.pb-md-3
         .row.justify-content-center.align-items-center

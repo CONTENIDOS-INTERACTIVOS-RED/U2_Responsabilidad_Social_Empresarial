@@ -22,9 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La Responsabilidad Social Empresarial (RSE) integra preocupaciones sociales y ambientales en las estrategias corporativas para promover el desarrollo sostenible. Evoluciona desde la filantropía hasta la sostenibilidad, abarcando dimensiones económica, social y ambiental. Basada en principios éticos como transparencia e integridad, fomenta entornos laborales seguros y prácticas responsables. Herramientas como la norma ISO 26000 y metodologías como RESILIO guían su implementación. La RSE contribuye al bienestar social, preservación ambiental y competitividad empresarial, vinculando el desarrollo sostenible para generar valor compartido y afrontar desafíos globales, incluyendo los Objetivos de Desarrollo Sostenible (ODS). 
-              
-              p #[b La RSE impulsa empresas que transforman el mundo hacia un futuro sostenible.]
+              p.descripcion.mb-4 La Responsabilidad Social Empresarial (RSE) estratégica integra preocupaciones sociales y ambientales en las operaciones empresariales, vinculando objetivos económicos con el desarrollo sostenible. Este enfoque mejora la reputación corporativa, atrae talento, reduce riesgos y costos, y fomenta el bienestar social y ambiental. La RSE puede incluirse en la visión y misión corporativa, promoviendo prácticas éticas y sostenibles. Además, a través del gobierno corporativo, los recursos humanos, el marketing social y la logística sostenible, las empresas fortalecen su compromiso con la equidad, la inclusión y la sostenibilidad, beneficiando tanto a las organizaciones como a la comunidad.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
