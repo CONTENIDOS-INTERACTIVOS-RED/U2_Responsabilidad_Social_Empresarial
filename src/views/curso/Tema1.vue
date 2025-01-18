@@ -123,28 +123,28 @@
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white
           .row.align-items-center.p-4.p-md-5
-            .col-lg-5
+            .col-lg-5.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema1/10.png")
             .col-lg-7
               h5 Reputación y confianza
               p Las empresas con políticas de RSE mejoran su imagen corporativa y generan confianza entre consumidores, empleados y otros grupos de interés, traduciéndose en mayor lealtad y preferencia por parte de los clientes.
           .row.align-items-center.p-4.p-md-5
-            .col-lg-5
+            .col-lg-5.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema1/11.png")
             .col-lg-7
               h5 Atracción y retención de talento
               p La RSE convierte a las empresas en lugares atractivos para trabajar, fomentando entornos éticos, diversos e inclusivos, incrementando la satisfacción laboral y reduciendo la rotación de personal.
           .row.align-items-center.p-4.p-md-5
-            .col-lg-5
+            .col-lg-5.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema1/12.png")
             .col-lg-7
               h5 Nuevas oportunidades de negocio
               p Las prácticas responsables abren mercados sostenibles y alianzas estratégicas con otras organizaciones comprometidas con la RSE, fortaleciendo las oportunidades económicas.
           .row.align-items-center.p-4.p-md-5
-            .col-lg-5
+            .col-lg-5.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema1/13.png")
             .col-lg-7
@@ -206,7 +206,7 @@
               .anexo__texto
                 p <strong>Anexo. </strong> Ejemplos destacados de implementación en la Responsabilidad Social Empresarial (RSE).
 
-          .col-lg-5.order-1
+          .col-lg-5.order-1.mb-3.mb-lg-0
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/17.png', alt='')
 
@@ -223,22 +223,54 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://basadoenhechosreales.com.ar/responsabilidad-social-hechos-historicos/" target="_blank" rel="noopener noreferrer") Basado en Hechos Reales. (n.d.). Responsabilidad social: Hechos históricos. 
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/222483" target="_blank" rel="noopener noreferrer") Guzmán Vásquez, A. Trujillo Dávila, M. A. & Guzmán Vásquez, D. (2019). Gestión de grupos de interés estratégicos: gobierno corporativo y empleados: (1 ed.). Colegio de Estudios Superiores de Administración - CESA.  
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://apambu.com/apambublog/5-dimensiones-responsabilidad-social-corporativa/" target="_blank" rel="noopener noreferrer") Apambu. (s.f.). 5 dimensiones de la responsabilidad social corporativa.
+              a(href="https://www.mites.gob.es/es/rse/eerse/index.htm" target="_blank" rel="noopener noreferrer") Ministerio de Trabajo y Economía Social. (2014). Estrategia Española de Responsabilidad Social de las Empresas. 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://fastercapital.com/es/contenido/Principios-y-valores-eticos--Responsabilidad-Social-Corporativa--Integrando-la-etica-en-los-modelos-de-negocio.html" target="_blank" rel="noopener noreferrer") FasterCapital. (2023, junio). Principios y valores éticos: Responsabilidad Social Corporativa. 
+              a(href="https://factorhuma.org/es/contenidos/unidades/11271-responsabilidad-social-estrategica-rse" target="_blank" rel="noopener noreferrer") Factor Humà. (2014). Responsabilidad Social Estratégica (RSE).  
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.eluniversal.com.co/especial/responsabilidad-social/2022/03/10/10-principios-eticos-de-las-empresas-socialmente-responsables/" target="_blank" rel="noopener noreferrer") El Universal. (2022, 10 de marzo). 10 principios éticos de las empresas socialmente responsables. 
+              a(href="https://responsabilidadysostenibilidad.com/estrategias-de-responsabilidad-social-corporativa/" target="_blank" rel="noopener noreferrer") Responsabilidad y Sostenibilidad. (2021). Estrategias de Responsabilidad Social Corporativa (RSC).
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.elcolombiano.com/negocios/estas-son-las-empresas-con-mayor-responsabilidad-social-MH14759566" target="_blank" rel="noopener noreferrer") El Colombiano. (2021). Empresas con mayor responsabilidad social. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.deloitte.com/es/es/services/risk-advisory/perspectives/responsabilidad-social-y-gobierno-corporativo.html" target="_blank" rel="noopener noreferrer") Deloitte. (2016, 12 de julio). Responsabilidad Social y Gobierno Corporativo. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.softwarelogisticaydistribucion.eu/logistica-con-rse/" target="_blank" rel="noopener noreferrer") ¡Mejorando la logística con Responsabilidad Social Empresarial! (s.f.). 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.huffingtonpost.es/economia/esconden-cajas-verdes-fruta-mercadona-verdura-rp.html" target="_blank" rel="noopener noreferrer") Huffington Post. (2024, 5 de septiembre). Lo que esconden las cajas verdes de la fruta y verdura de Mercadona y casi ningún cliente imagina. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.grupocetep.cl/2024/10/28/guia-completa-sobre-responsabilidad-social-empresarial-rse-definicion-tipos-estrategias-y-ejemplos/" target="_blank" rel="noopener noreferrer") Grupo Cetep. (2023, 28 de octubre). Guía completa sobre responsabilidad social empresarial (RSE): Definición, tipos, estrategias y ejemplos. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://fastercapital.com/es/contenido/Vision--Como-la-responsabilidad-social-corporativa-puede-inspirar-su-vision-y-mision.html" target="_blank" rel="noopener noreferrer") FasterCapital. (2023). Visión: Cómo la responsabilidad social corporativa puede inspirar su visión y misión. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://triunfaemprendiendo.com/como-beneficia-la-responsabilidad-social-a-la-comunidad/" target="_blank" rel="noopener noreferrer") Triunfa Emprendiendo. (s.f.). Beneficios de la responsabilidad social para la comunidad: Todo lo que necesitas saber. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elpais.com/america-colombia/branded/los-lideres-de-colombia/2024-12-05/beatriz-fernandez-el-compromiso-social-detras-de-la-gastronomia.html" target="_blank" rel="noopener noreferrer") El País. (2024, diciembre 5). Beatriz Fernández, el compromiso social detrás de la gastronomía. 
+
+
+
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer") ChatGPT
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://copilot.microsoft.com/" target="_blank" rel="noopener noreferrer") Copilot
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=CEy_5Xmf03c" target="_blank" rel="noopener noreferrer")      Gestión Estratégica de la Responsabilidad Social Empresarial.
 
 
           .col-12.col-md-6.col-lg-3.offset-lg-1

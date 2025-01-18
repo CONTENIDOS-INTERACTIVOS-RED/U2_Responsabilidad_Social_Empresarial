@@ -4,12 +4,12 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
 
     .row.mb-5
-      .col-lg-7
+      .col-lg-7.order-2.order-lg-1
         .bg-color-3.p-4(data-aos="fade-left").mb-4
           p.mb-0 La Responsabilidad Social Empresarial (RSE) estratégica representa un enfoque integral que permite a las empresas alinear sus objetivos económicos con el desarrollo sostenible. A través de la incorporación voluntaria de preocupaciones sociales y ambientales en sus operaciones, las organizaciones pueden generar valor compartido, beneficiando tanto a la comunidad como a su competitividad en el mercado. Este enfoque trasciende el cumplimiento legal, impulsando prácticas éticas que responden a las necesidades de la sociedad actual.
         
         p(data-aos="fade-left") La integración de la RSE en la visión y misión corporativa es clave para consolidar un propósito empresarial que promueva la sostenibilidad y el bienestar social. Este compromiso fomenta entornos laborales equitativos, seguros y saludables, mientras refuerza la reputación corporativa y la fidelidad de los clientes. Ejemplos como el de Crepes & Waffles en Colombia demuestran como  este enfoque puede traducirse en un impacto positivo para empleados, comunidades y pequeñas economías locales.
-      .col-lg-5.d-none.d-sm-block
+      .col-lg-5.d-none.d-sm-block.order-1.order-lg-2
         figure
           img(src="@/assets/curso/intro/1.png", data-aos="zoom-in").mb-4.mb-lg-0
 

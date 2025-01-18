@@ -76,21 +76,21 @@
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white
           .row.align-items-center.p-4.p-md-5
-            .col-lg-5
+            .col-lg-5.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema3/6.png")
             .col-lg-7
               h5 Mejora de la imagen corporativa
               p Incorporar temas sociales en las estrategias de marketing  posiciona a las empresas como responsables y comprometidas, incrementando la confianza del consumidor.
           .row.align-items-center.p-4.p-md-5
-            .col-lg-5
+            .col-lg-5.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema3/7.png")
             .col-lg-7
               h5  Fidelización de clientes
               p Los consumidores valoran las marcas que demuestran un compromiso genuino con causas sociales, lo que genera una mayor lealtad hacia la marca.
           .row.align-items-center.p-4.p-md-5
-            .col-lg-5
+            .col-lg-5.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema3/8.png")
             .col-lg-7
@@ -127,14 +127,14 @@
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white
           .row.align-items-center.p-4.p-md-5
-            .col-lg-5
+            .col-lg-5.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema3/12.png")
             .col-lg-7
               h5 Alejandro Crocker
               p Diseñador venezolano en Colombia que utiliza desperdicios textiles para crear piezas únicas, empoderando comunidades vulnerables mediante formación en diseño y manufactura.
           .row.align-items-center.p-4.p-md-5
-            .col-lg-5
+            .col-lg-5.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema3/13.png")
             .col-lg-7
@@ -185,20 +185,38 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://desarrollo-sustentable.org/desarrollo-sustentable-y-desarrollo-humano/" target="_blank" rel="noopener noreferrer") Planeta Reverdece. (2024). Desarrollo sustentable y desarrollo humano. 
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/261604" target="_blank" rel="noopener noreferrer") Plaza Casado, A. (Coord.). (2024). Marketing socialmente responsable: (1 ed.). Dykinson.   
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://cincodias.elpais.com/companias/2024-12-10/la-simbiosis-de-grandes-empresas-y-pymes-tira-de-la-economia.html" target="_blank" rel="noopener noreferrer") Cinco Días. (2024, 10 de diciembre). La simbiosis de grandes empresas y pymes tira de la economía.   
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://cincodias.elpais.com/legal/2024-10-17/la-fundacion-internacional-para-la-valoracion-de-impactos-ifvi-publica-un-modelo-para-cuantificar-la-huella-ambiental-de-las-empresas.html" target="_blank" rel="noopener noreferrer") Cinco Días. (2024, 17 de octubre). La Fundación Internacional para la Valoración de Impactos (IFVI) publica un modelo para cuantificar la huella ambiental de las empresas.   
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.mediummultimedia.com/marketing/como-se-relaciona-el-marketing-y-responsabilidad-social/" target="_blank" rel="noopener noreferrer") La Intersección entre el Marketing y la Responsabilidad Social: Una Perspectiva Actual. (s.f.).   
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://reimagineit.es/la-rsc-y-su-impacto-en-el-marketing-una-perspectiva-clave/" target="_blank" rel="noopener noreferrer") El Impacto de la Responsabilidad Social Corporativa en el Marketing. (s.f.).   
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.softwarelogisticaydistribucion.eu/logistica-con-rse/" target="_blank" rel="noopener noreferrer") Software Logística y Distribución. (2022). ¡Mejorando la Logística con Responsabilidad Social Empresarial!.   
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://ndmarketingdigital.com/como-influye-el-marketing-social/" target="_blank" rel="noopener noreferrer") ND Marketing Digital. (s.f.). El impacto del marketing social en la sociedad: una visión detallada y actual.   
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://stockabee.com/logistica-sostenible-y-su-importancia//" target="_blank" rel="noopener noreferrer") Stockabee. (2023). Logística sostenible y su importancia.   
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://los40.com/2024/12/10/asi-se-gestiona-un-tecnobosque/" target="_blank" rel="noopener noreferrer") Los40. (2024, 10 de diciembre). Así se gestiona un "tecnobosque".  
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elpais.com/america-colombia/branded/los-lideres-de-colombia/2024-12-05/fabio-gonzalez-el-visionario-de-la-palmicultura.html" target="_blank" rel="noopener noreferrer") El País. (2024, 5 de diciembre). Fabio González: el visionario de la palmicultura.   
+            
 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.un.org/sustainabledevelopment/es/2023/08/what-is-sustainable-development/" target="_blank" rel="noopener noreferrer") ONU. (2023). ¿En qué consiste el desarrollo sostenible?.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://blog.focustribes.com/es/rse-desarrollo-sostenible" target="_blank" rel="noopener noreferrer") FocusTribes. (2024, agosto 29). RSE y desarrollo sostenible: diferencias y vínculos. 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.blog-qhse.com/es/los-objetivos-de-desarrollo-sostenible-al-servicio-de-la-estrategia-rse" target="_blank" rel="noopener noreferrer") Blog QHSE. (2023, agosto 23). Los objetivos de desarrollo sostenible al servicio de la estrategia RSE. 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://foretica.org/wp-content/uploads/publicaciones/cuadernos-foretica/cuaderno_foretica_14_dialogo_grupos_interes.pdf" target="_blank" rel="noopener noreferrer") Forética. (2022). Diálogo con grupos de interés. 
+
+
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer") ChatGPT
@@ -206,9 +224,11 @@
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://copilot.microsoft.com/" target="_blank" rel="noopener noreferrer") Copilot
 
+
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=-JTveXxHrB4" target="_blank" rel="noopener noreferrer") Rincón, V. (2020, 15 de mayo). Relación entre la responsabilidad social empresarial y el desarrollo sostenible.
+              a(href="https://www.youtube.com/watch?v=yTygKl4ygcE" target="_blank" rel="noopener noreferrer") López y López, M. (2019, 4 de diciembre). Responsabilidad Social Empresarial como parte de la estrategia de negocios. 
+
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
