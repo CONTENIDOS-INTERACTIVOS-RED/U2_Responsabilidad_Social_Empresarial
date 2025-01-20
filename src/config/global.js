@@ -55,6 +55,11 @@ export default {
         titulo: 'Lo social como estrategia de marketing y logística en RSE ',
         desarrolloContenidos: true,
       },
+      {
+        nombreRuta: 'sintesis',
+        titulo: 'Síntesis',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {

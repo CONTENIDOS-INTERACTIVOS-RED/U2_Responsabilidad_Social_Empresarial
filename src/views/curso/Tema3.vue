@@ -375,6 +375,37 @@ export default {
             mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
             mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
           },
+          {
+            id: 5,
+            texto:
+              'Completa la frase: La logística sostenible busca reducir ______ y fomentar la eficiencia.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Costos económicos',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Emisiones de CO2',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Requisitos legales',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Tiempo de producción',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
         ],
         mensaje_final_aprobado:
           '¡Felicidades! Has superado la prueba con éxito.',
