@@ -159,7 +159,7 @@
             h2.mb-4(data-aos="flip-up") Logística sostenible e innovación social: pilares de la sostenibilidad empresarial
             p.mb-4(data-aos="fade-right") En el documento se destaca cómo la logística sostenible y la innovación social se han convertido en componentes clave para las estrategias de Responsabilidad Social Empresarial (RSE).
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

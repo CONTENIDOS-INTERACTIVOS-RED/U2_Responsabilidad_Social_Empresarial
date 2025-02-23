@@ -174,9 +174,9 @@
         .row.justify-content-center.align-items-center
           .col-lg-7
             h2.mb-4(data-aos="flip-up") Inclusión, equidad y diversidad en las organizaciones
-            p.mb-4(data-aos="fade-right") En el documento se describen ejemplos destacados de implementación de la Responsabilidad Social Empresarial (RSE), resaltando cómo diversas empresas han integrado estrategias sostenibles y socialmente responsables en sus operaciones
+            p.mb-4(data-aos="fade-right") En el documento se profundiza en la relevancia de la inclusión, equidad y diversidad (IED) dentro de las organizaciones como elementos clave para construir entornos laborales respetuosos, innovadores y competitivos.
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
